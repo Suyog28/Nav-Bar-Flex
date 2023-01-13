@@ -1,0 +1,23 @@
+body {
+  margin: 0 auto;
+  font-style: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
+    Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+nav {
+  background-color: black;
+  height: 10vh;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+ul {
+  display: flex;
+  min-width: 10rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul li {
+  list-style: none;
+}
